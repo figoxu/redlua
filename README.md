@@ -1,6 +1,6 @@
 # redlua
 
-##
+## lua序列化到golang代码中
 ```
 go get github.com/jessevdk/go-assets-builder
 ```
@@ -8,4 +8,8 @@ go get github.com/jessevdk/go-assets-builder
 ```
 go generate && go fmt
 
+```
+## 初始化vendor
+```
+go mod vendor
 ```

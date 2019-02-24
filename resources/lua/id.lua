@@ -1,6 +1,6 @@
 local key = KEYS[1]
 local id = redis.call('get',key)
-if(id == false)
+if not id
 then
     redis.call('set',key,1)
     return key.."0001"

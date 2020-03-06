@@ -12,3 +12,5 @@ require (
 	github.com/sirupsen/logrus v1.3.0 // indirect
 	github.com/stretchr/testify v1.3.0 // indirect
 )
+
+go 1.13
